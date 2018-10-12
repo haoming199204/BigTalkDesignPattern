@@ -39,7 +39,7 @@ public class Main {
 //        CashSuper csuper = CashFactory.createCashAccept(items[selectedIndex]);
         CashContext csuper = new CashContext(items[selectedIndex]);
 
-        totalPrices = csuper.acceptCash(Double.parseDouble(txtPrice) * Double.parseDouble(txtNum));
+        totalPrices = csuper.getResult(Double.parseDouble(txtPrice) * Double.parseDouble(txtNum));
 
         String result = "单价：" + txtPrice + " 数量：" + txtNum + " " + items[selectedIndex] + " 合计：" + totalPrices;
         System.out.println(result);

@@ -7,7 +7,7 @@ package pers.haoming.bigtalkdesignpatten.strategy;
  * @description:
  * @createDate 2018/10/12 18:58
  */
-public class CashContext extends CashSuper {
+public class CashContext {
     CashSuper cs;
 
     public CashContext(String type) {
@@ -35,8 +35,7 @@ public class CashContext extends CashSuper {
         }
     }
 
-    @Override
-    public double acceptCash(double money) {
+    public double getResult(double money) {
         return cs.acceptCash(money);
     }
 }
