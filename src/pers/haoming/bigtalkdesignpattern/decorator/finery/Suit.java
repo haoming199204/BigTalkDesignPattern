@@ -1,8 +1,8 @@
-package pers.haoming.bigtalkdesignpatten.decorator.finery;
+package pers.haoming.bigtalkdesignpattern.decorator.finery;
 
 /**
  * @author haoming
- * @package pers.haoming.bigtalkdesignpatten.decorator.finery
+ * @package pers.haoming.bigtalkdesignpattern.decorator.finery
  * @class Suit
  * @description:
  * @createDate 2018/10/15 10:21

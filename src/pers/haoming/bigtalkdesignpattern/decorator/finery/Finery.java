@@ -1,10 +1,10 @@
-package pers.haoming.bigtalkdesignpatten.decorator.finery;
+package pers.haoming.bigtalkdesignpattern.decorator.finery;
 
-import pers.haoming.bigtalkdesignpatten.decorator.person.Person;
+import pers.haoming.bigtalkdesignpattern.decorator.person.Person;
 
 /**
  * @author haoming
- * @package pers.haoming.bigtalkdesignpatten.decorator.finery
+ * @package pers.haoming.bigtalkdesignpattern.decorator.finery
  * @class Finery
  * @description: 服饰类
  * @createDate 2018/10/15 10:15

@@ -1,10 +1,10 @@
-package pers.haoming.bigtalkdesignpatten.strategy;
+package pers.haoming.bigtalkdesignpattern.strategy;
 
-import pers.haoming.bigtalkdesignpatten.strategy.cashstrategy.CashContext;
+import pers.haoming.bigtalkdesignpattern.strategy.cashstrategy.CashContext;
 
 /**
  * @author haoming
- * @package pers.haoming.bigtalkdesignpatten.strategy
+ * @package pers.haoming.bigtalkdesignpattern.strategy
  * @class Decorator
  * @description: 策略模式（对策略抽象，封装算法）
  * @createDate 2018/10/12 15:48

@@ -1,8 +1,8 @@
-package pers.haoming.bigtalkdesignpatten.strategy.cashstrategy;
+package pers.haoming.bigtalkdesignpattern.strategy.cashstrategy;
 
 /**
  * @author haoming
- * @package pers.haoming.bigtalkdesignpatten.strategy
+ * @package pers.haoming.bigtalkdesignpattern.strategy
  * @class CashContext
  * @description: 策略上下文
  * @createDate 2018/10/12 18:58

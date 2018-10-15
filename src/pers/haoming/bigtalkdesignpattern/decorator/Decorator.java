@@ -1,11 +1,11 @@
-package pers.haoming.bigtalkdesignpatten.decorator;
+package pers.haoming.bigtalkdesignpattern.decorator;
 
-import pers.haoming.bigtalkdesignpatten.decorator.finery.*;
-import pers.haoming.bigtalkdesignpatten.decorator.person.Person;
+import pers.haoming.bigtalkdesignpattern.decorator.finery.*;
+import pers.haoming.bigtalkdesignpattern.decorator.person.Person;
 
 /**
  * @author haoming
- * @package pers.haoming.bigtalkdesignpatten.decorator
+ * @package pers.haoming.bigtalkdesignpattern.decorator
  * @class Decorator
  * @description: 装饰模式
  * @createDate 2018/10/15 10:09

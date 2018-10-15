@@ -1,8 +1,8 @@
-package pers.haoming.bigtalkdesignpatten.decorator.person;
+package pers.haoming.bigtalkdesignpattern.decorator.person;
 
 /**
  * @author haoming
- * @package pers.haoming.bigtalkdesignpatten.decorator
+ * @package pers.haoming.bigtalkdesignpattern.decorator
  * @class Person
  * @description: 人类
  * @createDate 2018/10/15 10:05

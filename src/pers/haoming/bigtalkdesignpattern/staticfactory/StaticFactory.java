@@ -1,11 +1,11 @@
-package pers.haoming.bigtalkdesignpatten.staticfactory;
+package pers.haoming.bigtalkdesignpattern.staticfactory;
 
-import pers.haoming.bigtalkdesignpatten.staticfactory.operation.Operation;
-import pers.haoming.bigtalkdesignpatten.staticfactory.operation.OperationFactory;
+import pers.haoming.bigtalkdesignpattern.staticfactory.operation.Operation;
+import pers.haoming.bigtalkdesignpattern.staticfactory.operation.OperationFactory;
 
 /**
  * @author haoming
- * @package pers.haoming.bigtalkdesignpatten.strategy
+ * @package pers.haoming.bigtalkdesignpattern.strategy
  * @class Decorator
  * @description: 简单工厂模式
  * @createDate 2018/10/15 9:25
