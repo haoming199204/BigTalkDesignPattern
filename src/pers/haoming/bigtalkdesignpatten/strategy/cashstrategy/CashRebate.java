@@ -1,4 +1,4 @@
-package pers.haoming.bigtalkdesignpatten.strategy;
+package pers.haoming.bigtalkdesignpatten.strategy.cashstrategy;
 
 /**
  * @author haoming

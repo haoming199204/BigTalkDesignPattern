@@ -1,13 +1,15 @@
 package pers.haoming.bigtalkdesignpatten.strategy;
 
+import pers.haoming.bigtalkdesignpatten.strategy.cashstrategy.CashContext;
+
 /**
  * @author haoming
  * @package pers.haoming.bigtalkdesignpatten.strategy
- * @class Main
+ * @class Decorator
  * @description: 策略模式（对策略抽象，封装算法）
  * @createDate 2018/10/12 15:48
  */
-public class Main {
+public class Strategy {
 
     private static String[] items = new String[]{"正常收费", "打八折", "打七折", "打五折", "满 300 减 100"};
     private static int selectedIndex = 3;

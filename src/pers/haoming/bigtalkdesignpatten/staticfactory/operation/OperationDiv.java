@@ -1,4 +1,4 @@
-package pers.haoming.bigtalkdesignpatten.staticfactory;
+package pers.haoming.bigtalkdesignpatten.staticfactory.operation;
 
 /**
  * @author haoming

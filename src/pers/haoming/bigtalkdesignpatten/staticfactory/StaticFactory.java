@@ -1,13 +1,16 @@
 package pers.haoming.bigtalkdesignpatten.staticfactory;
 
+import pers.haoming.bigtalkdesignpatten.staticfactory.operation.Operation;
+import pers.haoming.bigtalkdesignpatten.staticfactory.operation.OperationFactory;
+
 /**
  * @author haoming
  * @package pers.haoming.bigtalkdesignpatten.strategy
- * @class Main
+ * @class Decorator
  * @description: 简单工厂模式
  * @createDate 2018/10/15 9:25
  */
-public class Main {
+public class StaticFactory {
 
     public static void main(String[] args) {
         // write your code here
