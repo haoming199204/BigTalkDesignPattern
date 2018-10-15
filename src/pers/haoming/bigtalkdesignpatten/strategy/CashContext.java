@@ -4,13 +4,14 @@ package pers.haoming.bigtalkdesignpatten.strategy;
  * @author haoming
  * @package pers.haoming.bigtalkdesignpatten.strategy
  * @class CashContext
- * @description:
+ * @description: 策略上下文
  * @createDate 2018/10/12 18:58
  */
 public class CashContext {
     CashSuper cs;
 
     public CashContext(String type) {
+        // 简单工厂模式
         switch (type) {
             case "正常收费":
                 cs = new CashNormal();

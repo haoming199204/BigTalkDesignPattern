@@ -4,7 +4,7 @@ package pers.haoming.bigtalkdesignpatten.strategy;
  * @author haoming
  * @package pers.haoming.bigtalkdesignpatten.strategy
  * @class Main
- * @description:
+ * @description: 策略模式（对策略抽象，封装算法）
  * @createDate 2018/10/12 15:48
  */
 public class Main {
@@ -17,7 +17,8 @@ public class Main {
         String txtPrice = "300";
         String txtNum = "4";
 
-        /*CashContext cc = null;
+        /* // 策略模式（不包括简单工厂模式设计）
+        CashContext cc = null;
         switch (selectedIndex) {
             case 0:
                 cc = new CashContext(new CashNormal());
@@ -36,6 +37,7 @@ public class Main {
                 break;
             default:
         }*/
+        // 对客户端隐藏策略的超类，彻底分离策略和客户端的联系
 //        CashSuper csuper = CashFactory.createCashAccept(items[selectedIndex]);
         CashContext csuper = new CashContext(items[selectedIndex]);
 

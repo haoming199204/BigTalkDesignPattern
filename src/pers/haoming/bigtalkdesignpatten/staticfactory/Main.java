@@ -1,15 +1,23 @@
 package pers.haoming.bigtalkdesignpatten.staticfactory;
 
+/**
+ * @author haoming
+ * @package pers.haoming.bigtalkdesignpatten.strategy
+ * @class Main
+ * @description: 简单工厂模式
+ * @createDate 2018/10/15 9:25
+ */
 public class Main {
 
     public static void main(String[] args) {
         // write your code here
         try {
             String strNumberA = "1";
-            String strOperate = "w";
+            String strOperate = "/";
             String strNumberB = "0";
             String strResult = "";
 
+            // 操作符对象工厂，根据操作符生成不同的操作符对象（多态性）
             Operation operation = OperationFactory.createOperation(strOperate);
             if (operation == null) {
                 throw new Exception("操作符不存在");
