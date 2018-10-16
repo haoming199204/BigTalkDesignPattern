@@ -12,7 +12,7 @@ import pers.haoming.bigtalkdesignpattern.factory.leifeng.LeiFeng;
  * @createDate 2018/10/16 9:30
  */
 public class Factory {
-    public static void main() {
+    public static void main(String[] args) {
         // 与简单工厂不同，工厂模式将条件判断放到客户端
 //        LeiFeng studentA = new Undergraduate();
         // 使用工厂模式：
@@ -20,7 +20,7 @@ public class Factory {
         // 2. 可以避免直接修改工厂类，直接实现工厂接口即可
 //        IFactory factory = new UndergraduateFactory();
         IFactory factory = new VolunteerFactory();
-
+        // 雷锋实体类的代码不用变动
         LeiFeng studentA = factory.createLeiFeng();
 
         studentA.sweep();
