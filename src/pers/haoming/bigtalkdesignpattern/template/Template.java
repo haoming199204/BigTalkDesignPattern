@@ -9,7 +9,7 @@ package pers.haoming.bigtalkdesignpattern.template;
  */
 public class Template {
     public static void main(String[] args) {
-
+        // A和B两位同学做同一张试卷
         TestPaper studentA = new TestPaperA();
         TestPaper studentB = new TestPaperB();
 

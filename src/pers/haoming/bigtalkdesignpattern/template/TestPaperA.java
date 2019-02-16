@@ -4,7 +4,7 @@ package pers.haoming.bigtalkdesignpattern.template;
  * @author haoming
  * @package pers.haoming.bigtalkdesignpattern.template
  * @class TestPaperA
- * @description:
+ * @description: A同学的试卷
  * @createDate 2019/2/16 16:35
  */
 public class TestPaperA extends TestPaper {
