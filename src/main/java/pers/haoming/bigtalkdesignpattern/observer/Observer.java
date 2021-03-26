@@ -1,9 +1,5 @@
 package pers.haoming.bigtalkdesignpattern.observer;
 
-import pers.haoming.bigtalkdesignpattern.proxy.Proxy;
-
-import java.beans.EventHandler;
-
 /**
  * 观察者模式客户端
  *

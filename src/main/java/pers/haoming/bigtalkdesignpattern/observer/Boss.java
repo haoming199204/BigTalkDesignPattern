@@ -1,7 +1,5 @@
 package pers.haoming.bigtalkdesignpattern.observer;
 
-import java.beans.EventHandler;
-import java.lang.reflect.Method;
 import java.util.ArrayList;
 import java.util.List;
 

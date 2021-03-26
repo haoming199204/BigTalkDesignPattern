@@ -2,6 +2,8 @@ package pers.haoming.bigtalkdesignpattern.decorator;
 
 import pers.haoming.bigtalkdesignpattern.decorator.finery.*;
 import pers.haoming.bigtalkdesignpattern.decorator.person.Person;
+import pers.haoming.bigtalkdesignpattern.decorator.finery.*;
+import pers.haoming.bigtalkdesignpattern.decorator.finery.*;
 
 /**
  * @author haoming
