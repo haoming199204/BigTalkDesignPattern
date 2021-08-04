@@ -5,7 +5,7 @@
 ![简单工厂设计图](https://github.com/haoming199204/BigTalkDesignPattern/blob/master/src/main/java/pers/haoming/bigtalkdesignpattern/staticfactory/%E7%AE%80%E5%8D%95%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F.png?raw=true)
 ### [第2章 策略模式](https://github.com/haoming199204/BigTalkDesignPattern/tree/master/src/main/java/pers/haoming/bigtalkdesignpattern/strategy)
 ![策略模式结构图](https://github.com/haoming199204/BigTalkDesignPattern/blob/master/src/main/java/pers/haoming/bigtalkdesignpattern/strategy/%E7%AD%96%E7%95%A5%E6%A8%A1%E5%BC%8F%E7%BB%93%E6%9E%84%E5%9B%BE.png?raw=true)
-### 第3涨 单一职责原则
+### 第3章 单一职责原则
 ### 第4章 开放-封闭原则（OCP）
 ### 第5章 依赖倒转原则
 ### [第6章 装饰模式](https://github.com/haoming199204/BigTalkDesignPattern/tree/master/src/main/java/pers/haoming/bigtalkdesignpattern/strategy)
